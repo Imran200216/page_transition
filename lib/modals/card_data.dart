@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class OnBoardingModal {
+class CardData {
   final String title;
   final String subTitle;
   final String lottieAssetIconName;
@@ -8,7 +8,7 @@ class OnBoardingModal {
   final Color subTitleColor;
   final Color backgroundColor;
 
-  OnBoardingModal({
+  CardData({
     required this.title,
     required this.subTitle,
     required this.lottieAssetIconName,
